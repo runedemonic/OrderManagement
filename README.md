@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS management (
 id bigint(5) NOT NULL AUTO_INCREMENT,
 company_name varchar(255) NOT NULL,
 product_name varchar(255) NOT NULL,
-product_code varchar(255) NOT NULL,
+product_code varchar(255) ,
 price int(10) NOT NULL,
 quantity int(10) NOT NULL,
 sum int(10) NOT NULL,
